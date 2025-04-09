@@ -103,6 +103,11 @@ p {
 	margin: 20px 0;
 }
 
+.image_right{
+	height: 250px;
+	float: right;
+}
+
 footer {
 	text-align: center;
 	padding: 20px;
@@ -111,4 +116,19 @@ footer {
 	position: relative;
 	bottom: 0;
 	width: 100%;
+}
+
+@media (max-width: 768px) {
+	header h1 {
+		font-size: 2.5rem;
+	}
+	header p {
+		font-size: 1rem;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	p {
+		font-size: 1rem;
+	}
 }
